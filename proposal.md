@@ -17,7 +17,7 @@
 
 ### Descripción
 
-### Es una plataforma que conecta dueños de aeronaves con clientes exclusivos, gestionando todo el proceso: desde pedir presupuestos y enviar cotizaciones hasta reservar y pagar de forma segura.
+Es una plataforma que conecta dueños de aeronaves con clientes exclusivos, gestionando todo el proceso: desde pedir presupuestos y enviar cotizaciones hasta reservar y pagar de forma segura.
 
 ### Modelo
 
