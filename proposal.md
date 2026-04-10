@@ -17,7 +17,7 @@
 
 ### Descripción
 
-### Nuestra plataforma es un marketplace exclusivo de luxury mobility que conecta propietarios de aeronaves con clientes de alto perfil. El sistema gestiona todo el ciclo comercial, desde la solicitud de presupuesto y el envío de cotizaciones personalizadas, hasta la confirmación de la reserva y el pago seguro. 
+### Es una plataforma que conecta dueños de aeronaves con clientes exclusivos, gestionando todo el proceso: desde pedir presupuestos y enviar cotizaciones hasta reservar y pagar de forma segura.
 
 ### Modelo
 
