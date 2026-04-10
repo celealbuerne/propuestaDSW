@@ -10,8 +10,8 @@
 
 ### Repositorios
 
-* https://github.com/celealbuerne/Backend-app
-* https://github.com/celealbuerne/Frontend-app
+* [Backend] (https://github.com/celealbuerne/Backend-app)
+* [Backend] (https://github.com/celealbuerne/Backend-app)
 
 ## Tema
 
