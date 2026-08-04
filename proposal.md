@@ -6,7 +6,6 @@
 
 * 52060 \- Celeste Albuerne   
 * 52308 \- Franco Rodriguez  
-* 42067 \- Brian Velazquez
 
 ### Repositorios
 
