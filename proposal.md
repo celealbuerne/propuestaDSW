@@ -31,8 +31,8 @@ Es una plataforma que conecta dueños de aeronaves con clientes exclusivos, gest
 
 | Req | Detalle |
 | :--- | :--- |
-| **CRUD Simple** | <ul><li>- [ ] CRUD Localidad</li><li>- [ ] CRUD Proveedor</li><li>- [ ] CRUD Cliente</li></ul> |
-| **CRUD Dependiente** | <ul><li>- [ ] CRUD Aeropuerto {Depende de} CRUD Localidad</li><li>- [ ] CRUD Aeronave {Depende de} CRUD Proveedor</li></ul> |
+| **CRUD Simple** | <ul><li>- [ ] CRUD Localidad</li><li>- [ ] CRUD Usuario</li> |
+| **CRUD Dependiente** | <ul><li>- [ ] CRUD Aeropuerto {Depende de} CRUD Localidad</li><li>- [ ] CRUD Aeronave {Depende de} CRUD Usuario</li></ul> |
 | **Listado + Detalle** | <ul><li>- [ ] **Listado de publicaciones filtrado por precio:** Muestra datos completos de la publicación (precio, descripción, modelo de aeronave, capacidad, autonomía, velocidadMáxima) $\Rightarrow$ CRUD Publicación</li><li>- [ ] **Listado de SolicitudReserva filtradas por estado:** Muestra para una determinada aeronave todas las reservas registradas en un estado específico.</li></ul> |
 | **CUU/Epic** | <ul><li>- [ ] Realizar una Publicación</li><li>- [ ] Realizar una Solicitud de Reserva</li></ul> |
 
