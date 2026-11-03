@@ -4,52 +4,53 @@
 
 ### Integrantes
 
-* 52060 \- Celeste Albuerne   
-* 52308 \- Franco Rodriguez  
+| Legajo | Nombre |
+| :--- | :--- |
+| 52060 | Celeste Albuerne |
+| 52308 | Franco Rodriguez |
 
 ### Repositorios
 
-* [Frontend](https://github.com/celealbuerne/Frontend-app)
-* [Backend](https://github.com/celealbuerne/Backend-app)
+- [Frontend](https://github.com/celealbuerne/Frontend-app)
+- [Backend](https://github.com/celealbuerne/Backend-app)
 
 ## Tema
 
 ### Descripción
 
-Es una plataforma que conecta dueños de aeronaves con clientes exclusivos, gestionando todo el proceso: desde pedir presupuestos y enviar cotizaciones hasta reservar y pagar de forma segura.
+AeroLux es una plataforma que conecta dueños de aeronaves con clientes exclusivos y gestiona todo el proceso: desde pedir presupuestos y enviar cotizaciones hasta reservar y pagar de forma segura.
 
 ### Modelo
 
-![Modelo de Dominio](DSW_dominio-v5.jpg)
+![Modelo de dominio](DSW_dominio-v5.jpg)
 
+[Ver el diagrama en draw.io](https://app.diagrams.net/#G1nMqtIMqy8IliIgLf5FR4Eqx7YcsVLK-M#%7B%22pageId%22%3A%22B5eMvQEZjcl8MpkFTvKB%22%7D)
 
-[link](https://drive.google.com/file/d/1nMqtIMqy8IliIgLf5FR4Eqx7YcsVLK-M/view?usp=sharing)
+### Alcance Funcional
 
-## Alcance Funcional
+#### Alcance Mínimo
 
-### Alcance AD 
-
-| Req | Detalle |
-| :--- | :--- |
-| **CRUD Simple** | <ul><li>- [ ] CRUD Localidad</li><li>- [ ] CRUD Usuario</li> |
-| **CRUD Dependiente** | <ul><li>- [ ] CRUD Aeropuerto {Depende de} CRUD Localidad</li><li>- [ ] CRUD Aeronave {Depende de} CRUD Usuario</li></ul> |
-| **Listado + Detalle** | <ul><li>- [ ] **Listado de publicaciones filtrado por precio:** Muestra datos completos de la publicación (precio, descripción, modelo de aeronave, capacidad, autonomía, velocidadMáxima) $\Rightarrow$ CRUD Publicación</li><li>- [ ] **Listado de SolicitudReserva filtradas por estado:** Muestra para una determinada aeronave todas las reservas registradas en un estado específico.</li></ul> |
-| **CUU/Epic** | <ul><li>- [ ] Realizar una Publicación</li><li>- [ ] Realizar una Solicitud de Reserva</li></ul> |
-
-### ### Alcance Adicional Voluntario
-
+##### Regularidad
 
 | Req | Detalle |
 | :--- | :--- |
-| **CRUD Completo** | <ul><li>- [ ] CRUD Aeronave</li><li>- [ ] CRUD Proveedor</li><li>- [ ] CRUD Cliente</li><li>- [ ] CRUD Localidad</li><li>- [ ] CRUD Aeropuerto</li><li>- [ ] CRUD Reseña</li></ul> |
-| **CUU/Epic** | <ul><li>- [ ] Realizar una Publicación</li><li>- [ ] Realizar una Solicitud Reserva</li></ul> |
+| **CRUD simple** | 1. CRUD Localidad<br>2. CRUD Usuario |
+| **CRUD dependiente** | 1. CRUD Aeropuerto {depende de} CRUD Localidad<br>2. CRUD Aeronave {depende de} CRUD Usuario |
+| **Listado<br>+<br>detalle** | 1. Listado de Publicaciones filtrado por precio, muestra precio, descripción, modelo de aeronave, capacidad, autonomía y velocidad máxima => detalle CRUD Publicación<br>2. Listado de Aeropuertos filtrado por nombre, código y/o localidad, muestra nombre, código y localidad => detalle CRUD Aeropuerto |
+| **CUU/Epic** | 1. Realizar Publicación<br>2. Realizar Solicitud de Reserva |
 
----
-
+##### Adicionales para Aprobación
 
 | Req | Detalle |
 | :--- | :--- |
-| **Listados** | <ul><li>- [ ] **Listado de publicaciones filtrado por origen:** Datos completos de publicación e información del aeropuerto de origen $\Rightarrow$ CRUD Publicación</li></ul> |
-| **CUU/Epic** | <ul><li>- [ ] Realizar una Reseña</li><li>- [ ] Cancelar Reserva</li></ul> |
-| **Otros** | <ul><li>- [ ] Notificación por mail al proveedor al recibir solicitud de Reserva.</li><li>- [ ] Envío de recordatorio de reserva por mail al cliente.</li></ul> |
+| **CRUD completo** | 1. CRUD Aeronave<br>2. CRUD Proveedor<br>3. CRUD Cliente<br>4. CRUD Localidad<br>5. CRUD Aeropuerto<br>6. CRUD Reseña |
+| **CUU/Epic** | 1. Realizar Publicación<br>2. Realizar Solicitud de Reserva |
+| **Listado<br>+<br>detalle** | 1. Listado de Solicitudes de Reserva filtrado por estado, muestra para una determinada aeronave las reservas registradas en ese estado => detalle CRUD Solicitud de Reserva |
 
+#### Alcance Adicional Voluntario
+
+| Req | Detalle |
+| :--- | :--- |
+| **Listado<br>+<br>detalle** | 1. Listado de Publicaciones filtrado por origen, muestra los datos completos de la publicación y la información del aeropuerto de origen => detalle CRUD Publicación |
+| **CUU/Epic** | 1. Cancelar Reserva |
+| **Otros** | 1. Notificación por mail al proveedor al recibir una Solicitud de Reserva<br>2. Recordatorio de reserva por mail al cliente |
